@@ -10,7 +10,7 @@ function TodoForm() {
         e.preventDefault()
         if (!todo) return
         console.log(todo)
-        addTodo({todo:todo})
+        addTodo(todo)
         setodo("")
     }
     return (
